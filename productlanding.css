@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(236, 235, 235);
+    margin: 0px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(236, 235, 235);
+    top: 0px;   
+    
+}
+#headerImg{
+    height: auto;
+    width: 50px;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#mainbody{
+    position: relative;
+    top: 150px;
+    
+}
+
+#navBar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin:0px 50px;
+   
+}
+li{
+    list-style: none;
+    margin: 0px 50px;
+    
+}
+
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 136, 0);
+}
+
+#emailInput{
+    position: relative;
+    text-align: center;
+}
+#description{
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+#email{
+    width: 250px;
+    padding: 5px;
+    
+}
+#emailButton{
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    background-color: rgb(219, 188, 11);
+    color: rgba(100, 100, 100, 0.938);
+    border:0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 3px 3px 15px;
+    transition: ease-in 2ms;
+}
+#emailButton:hover{
+    background-color: rgb(255, 145, 0);
+}
+/*#block{
+    border: 2px rgb(253, 176, 8) solid;
+     
+}*/
+#main{
+        margin-top: 50px;
+        width: 700px;
+        margin: auto;
+
+    }
+hr{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    margin: 0px;
+    color: black;
+}
+#navbutton{
+    display: none;
+    }
+
+
+@media all and (max-width: 500px ) {
+    #header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        background-color: rgb(236, 235, 235);
+        top: 0px;     
+    }
+
+    #navbutton{
+    display: block;
+    }
+
+    #main{
+        margin-top: 50px;
+        width: auto;
+    } 
+    
+    #navBar{
+        display: none;
+    }
+}
+
+h2{
+    margin-right:320px;
+    margin: auto;
+
+}
+.mainP{
+    font-size: 20px;
+    margin-top: -15px;
+    margin: auto;   
+}
+.mainblock{
+    margin: 70px;
+}
+#video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+video{
+    width: 400px;
+}
+
+.slides{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    
+}
+#slideRows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slide{
+    width: 250px;
+    height: 280px;
+    border: 1px grey solid;
+    margin: 20px;
+    text-align: center;
+
+}
+h3{
+    background-color: rgb(145, 145, 145);
+    margin-top: 0px;
+    
+    padding: 10px;
+}
+#slidesubmit{
+    margin-top: 10px;
+    background-color: rgb(255, 187, 0);
+    width: 100px;
+    height: auto;
+    color: rgb(131, 131, 131);
+    font-size: medium;
+    border: 0px;
+    padding: 5px;
+
+}
+#slidesubmit:hover{
+    background-color: rgb(107, 79, 53);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    height: 100px;
+    
+}
+.footerli{
+    bottom: 0px;
+    margin: 0px 70px;
+
+}
